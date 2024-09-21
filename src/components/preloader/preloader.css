@@ -1,0 +1,35 @@
+.imgPop{
+  animation: bounce-in 2s linear;
+}
+
+@keyframes bounce-in {
+  0% {
+    opacity: 0;
+    transform: scale(.2);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  70% { transform: scale(.9); }
+  100% { transform: scale(1); }
+}
+
+#container{
+  position: fixed;
+  top: 0;
+  z-index: 300;
+  width: 100%;
+  
+}
+
+.goUp{
+  animation: goUp 1s ease;
+  animation-delay: 2s;
+}
+
+@keyframes goUp {
+  to{
+    transform: translateY(-100%);
+  }
+}
