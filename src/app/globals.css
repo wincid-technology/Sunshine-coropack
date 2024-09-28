@@ -94,7 +94,7 @@
 
 /* CUSTOM CSS */
 .home-hero {
-  background-image: linear-gradient(45deg, rgba(108, 78, 49, 0.7), rgba(184, 112, 58, 0.514)),url("/images/home/home-hero.jpg");
+  background-image: linear-gradient(45deg, rgba(0, 0, 0, 0.336), rgba(0, 0, 0, 0.075)),url(/img/fallHero.jpeg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -265,11 +265,14 @@
 }
 
 .animation-right {
-  animation: slideInFromRight 1.5s ease-in-out;
+  animation: slideInFromRight ease-in-out;
+  transition-delay: 20s;
+  animation-delay: 20s;
 }
 
 .animation-left {
-   animation: slideInFromLeft 1.5s ease-in-out;
+   animation: slideInFromLeft ease-in-out;
+   transition-delay: 20s;
 }
 
 .animation-top {
@@ -319,9 +322,9 @@
   }
 }
 
-.logoBounce{
-  animation: bounceLogoIn 2s linear;
-  transition-delay: 20s;
+/* .logoBounce{
+  animation: bounceLogoIn linear;
+  transition-delay: 10s;
 }
 
 @keyframes bounceLogoIn {
@@ -335,10 +338,10 @@
   }
   70% { transform: scale(.9); }
   100% { transform: scale(1); }
-}
+} */
 
 .navBorder{
-  border-image: linear-gradient(to right, #ffffff 0%, #6e6e6e 100%) 0 0 1 0;
+  border-image: linear-gradient(to right, #8585857e 0%, #b6b6b654 80%) 0 0 1 0;
   border-radius: 5px; /* this doesn't work */
   border-width: 1px;
   border-style: solid;

@@ -1,10 +1,10 @@
-import HeadingOne from "../typography/HeadingOne";
+import Hero from "../typography/HeadingOne";
 
 const Header = () => {
   return (
     <section className="min-h-[100vh] home-hero overflow-hidden flex flex-col items-center justify-center">
-      <div className="bg-black/20 px-10 w-full h-screen flex justify-center items-center ">
-        <HeadingOne />
+      <div className="bg-amber-950/40 w-full h-screen flex justify-center items-center ">
+        <Hero />
       </div>
     </section>
   );

@@ -17,8 +17,8 @@ export function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
-          Pages
+        <a href="#" className="flex items-center uppercase hover:text-white/80 transition-colors">
+          About
         </a>
       </Typography>
       <Typography
@@ -27,8 +27,8 @@ export function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
-          Account
+        <a href="#" className="flex items-center uppercase hover:text-white/80 transition-colors">
+          Products
         </a>
       </Typography>
       <Typography
@@ -37,8 +37,8 @@ export function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
-          Blocks
+        <a href="#" className="flex items-center uppercase hover:text-white/80 transition-colors">
+          Procedure
         </a>
       </Typography>
       <Typography
@@ -47,8 +47,8 @@ export function NavList() {
         color="blue-gray"
         className="p-1 font-medium"
       >
-        <a href="#" className="flex items-center hover:text-blue-500 transition-colors">
-          Docs
+        <a href="#" className="flex items-center uppercase hover:text-white/80 transition-colors">
+          Contact
         </a>
       </Typography>
     </ul>
@@ -70,11 +70,11 @@ export const NavbarSimple = () => {
   }, []);
  
   return (
-    <Navbar className="mx-auto navBorder backdrop-blur-sm border-0 border-white max-w-screen-xl px-6 py-3 absolute">
-      <div className="flex items-center justify-between text-blue-gray-900">
+    <Navbar className="mx-auto navBorder backdrop-blur-sm border-0 border-white px-6 max-w-screen-xl py-3 absolute z-50">
+      <div className="flex items-center px-14 justify-between text-blue-gray-900">
         <Typography
           as="a"
-          href="#"
+          href="/"
           variant="h6"
           className="mr-4 cursor-pointer py-1.5"
         >
